@@ -5,7 +5,7 @@
 - Título do projeto ✅
 - Nomes dos integrantes do grupo ✅
 - Índice ✅
-- Introdução
+- Introdução ✅
 - Interessados ✅
 - Objetivos funcionais ✅
 - Objetivos não-funcionais ✅
