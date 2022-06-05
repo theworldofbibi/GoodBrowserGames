@@ -18,4 +18,4 @@
 - Diagramas de sequência de projeto ✅
 - URL de acesso ao repositório de código-fonte do grupo ✅
 - URL de acesso ao quadro de acompanhamento do projeto do grupo ✅
-- Link do Site: https://goodbrowserg.herokuapp.com
+- Link do Site: https://goodbrowserg.herokuapp.com/
