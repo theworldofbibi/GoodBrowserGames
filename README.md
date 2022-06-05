@@ -11,7 +11,7 @@
 - Objetivos não-funcionais ✅
 - Diagrama de casos de uso ✅
 - Descrição detalhada dos casos de uso principais ✅
-- Protótipos de tela (em andamento)
+- Protótipos de tela ✅
 - Modelo de domínio ✅
 - Lista de decisões de arquitetura (com justificativas) ✅
 - Diagramas de classes de projeto ✅
