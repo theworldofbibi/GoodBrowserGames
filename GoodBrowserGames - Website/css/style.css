@@ -1,0 +1,320 @@
+@font-face {
+    font-family:'baby';
+    src: url('fonts/baby blocks.ttf');
+}
+
+@font-face {
+    font-family:'asap';
+    src: url('fonts/Asap-SemiBold.ttf');
+  }
+
+body {
+font-family: asap;
+width: 1440px;
+height: 1024px;
+position: relative;
+background-color: #1A0D27;
+}
+.button {
+position: absolute;
+width: 170px;
+height: 50px;
+left: 635px;
+top: 617px;
+background: #936BB7;
+box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+border-radius: 14px;
+
+} 
+.divisor {
+position: absolute;
+width: 1240px;
+height: 0px;
+left: 100px;
+right: 100px;
+top: 78px;
+bottom: 946px;
+border: 4px solid #FFFFFF;
+} 
+
+.titulo{
+position: absolute;
+left: 100px;
+right: 1122px;
+top: 46px;
+bottom: 954px;
+
+font-family: 'baby';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 24px;
+
+color: #FCFEFD;
+
+} 
+
+.home{
+position: absolute;
+text-decoration: none;
+left: 418px;
+right: 973px;
+top: 48px;
+bottom: 955px;
+
+font-family: 'Asap';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+
+display: flex;
+align-items: center;
+
+color: #D11929;
+} 
+
+.home:hover{
+  color: #FFFFFF
+}
+
+.home-off {
+  position: absolute;
+  text-decoration: none;
+  left: 418px;
+  right: 973px;
+  top: 48px;
+  bottom: 955px;
+
+  font-family: 'Asap';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;;
+  }
+
+.home-off:hover{
+    color: #D11929;
+    
+  }
+
+.catalogue{
+position: absolute;
+text-decoration: none;
+left: 567px;
+right: 728px;
+top: 48px;
+bottom: 955px;
+
+
+font-family: 'Asap';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+
+display: flex;
+align-items: center;
+color: #FFFFFF;
+
+} 
+
+.catalogue-on{
+  position: absolute;
+  text-decoration: none;
+  left: 567px;
+  right: 728px;
+  top: 48px;
+  bottom: 955px;
+  
+  
+  font-family: 'Asap';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  
+  display: flex;
+  align-items: center;
+  color: #D11929;
+  
+  } 
+
+.catalogue:hover {
+  color: #D11929;
+}
+
+.catalogue-on:hover {
+    color: #FFFFFF;
+  }
+
+
+#name::placeholder{
+color:#FD9E02;
+padding-left: 12px;
+text-align: start;
+
+}
+
+.search-bar{
+width: 320px;
+height: 30px;
+position: absolute;
+left: 754px;
+right: 286px;
+top: 40px;
+bottom: 954px;
+border: 1px solid #FCFEFD;
+border-radius: 14px;
+overflow: hidden;
+background-color: #1A0D27;
+color: #FD9E02;
+
+
+} 
+
+.lupa{
+position: absolute;
+left: 1044px;
+right: 398px;
+top: 45px;
+bottom: 959px;
+} 
+
+.texto{
+position: absolute;
+left: 1100px;
+right: 192px;
+top: 50px;
+bottom: 972px;
+
+font-family: 'Asap';
+font-style: normal;
+font-size: 10px;
+
+display: flex;
+align-items: center;
+
+color: #FCFEFD;
+
+} 
+
+.apontador{
+position: absolute;
+left: 1235px;
+right: 192px;
+top: 59px;
+bottom: 954px;
+}
+
+.usuario{
+position: absolute;
+text-decoration: none;
+left: 1290px;
+right: 100px;
+top: 43px;
+bottom: 954px;
+
+}
+
+.good-megaTitulo{
+position: absolute;
+width: 375px;
+height: 300px;
+left: 188px;
+top: 184px;
+
+font-family: 'baby';
+font-style: normal;
+font-weight: 400;
+font-size: 100px;
+line-height: 100px;
+display: flex;
+align-items: center;
+
+color: #D11929;
+}
+
+.browser-megaTitulo{
+position: absolute;
+width: 375px;
+height: 300px;
+left: 188px;
+top: 284px;
+
+font-family: 'baby';
+font-style: normal;
+font-weight: 400;
+font-size: 100px;
+line-height: 100px;
+display: flex;
+align-items: center;
+
+color: #FD9E02;
+}
+
+.games-megaTitulo{
+position: absolute;
+width: 375px;
+height: 300px;
+left: 188px;
+top: 384px;
+
+font-family: 'baby';
+font-style: normal;
+font-weight: 400;
+font-size: 100px;
+line-height: 100px;
+display: flex;
+align-items: center;
+
+color: #FFDD37;
+}
+
+.orbita{
+position: absolute;
+top: 430px;
+left: 613px;
+right: 677px;
+bottom: 415px;
+}
+
+.slogan{
+position: absolute;
+width: 438px;
+height: 400px;
+left: 813px;
+top: 225px;
+
+font-family: 'baby';
+font-style: normal;
+font-weight: 400;
+font-size: 100px;
+line-height: 100px;
+display: flex;
+align-items: center;
+
+color: #4BABBB;
+}
+
+.dinossauro{
+position: absolute;
+left: 1125px;
+top: 990px;
+
+}
+
+.marca-dagua{
+position: absolute;
+width: 300px;
+height: 20px;
+left: 1200px;
+top: 998px;
+color: #FFFFFF;
+margin-bottom: 50px;
+
+}

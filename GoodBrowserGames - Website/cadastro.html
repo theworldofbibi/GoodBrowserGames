@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<title>Document</title>
+<link href="css/style.css" rel="stylesheet">
+</head>
+<style>
+ @font-face {
+        font-family:'baby';
+        src: url('baby blocks.ttf');
+    }
+ @font-face {
+        font-family:'asap';
+        src: url('fonts/Asap-SemiBold.ttf');
+    }
+    body {
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+    background-color: #1A0D27;
+    
+}
+
+#name::placeholder{
+    color:#4BABBB;
+    padding-left: 12px;
+    text-align: start;
+    
+}
+
+.forms{
+    margin-bottom: 30px;
+    display: block;
+    width: 500px;
+    height: 50px;
+    position: relative;
+    left: 110px;
+    right: 830px;
+    top: 202px;
+    bottom: 722px;
+    border: 1px solid #FCFEFD;
+    border-radius: 14px;
+    overflow: hidden;
+    background-color: #1A0D27;
+    color: #4BABBB;
+
+} 
+
+.forms-entrar1{
+    margin-bottom: 30px;
+    display: block;
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    top: 412px;
+    left: 930px;
+    right: 210px;
+    border: 1px solid #FCFEFD;
+    border-radius: 14px;
+    overflow: hidden;
+    background-color: #1A0D27;
+    color: #4BABBB;
+
+}
+
+.forms-entrar2{
+    margin-bottom: 30px;
+    display: block;
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    top: 492px;
+    bottom: 482px;
+    left: 930px;
+    right: 210px;
+    border: 1px solid #FCFEFD;
+    border-radius: 14px;
+    overflow: hidden;
+    background-color: #1A0D27;
+    color: #4BABBB;
+
+} 
+.cadastre-se {
+    position: relative;
+    width: 342px;
+    height: 50px;
+    left: 189px;
+    right: 909px;
+    top: 162px;
+    bottom: 812px;
+}
+
+.entrar {
+    position: absolute;
+    width: 236px;
+    height: 50px;
+    left: 962px;
+    top: 322px;
+
+
+} 
+
+.botão-cadastrar{
+    width: 170px;
+    height: 50px;
+    position: absolute;
+    left: 275px;
+    right: 995px;
+    top: 830px;
+    bottom: 162px;
+    color: #FFFFFF;
+    background-color: #6F23B1;
+    border-radius: 30px;
+
+}
+
+.botão-cadastrar:hover {
+  background-color: #936BB7; 
+  color: white;
+}
+
+.botão-acessar{
+    width: 170px;
+    height: 50px;
+    position: absolute;
+    left: 995px;
+    right: 275px;
+    top: 572px;
+    bottom: 402px;
+    color: #FFFFFF;
+    background-color: #6F23B1;
+    border-radius: 30px;
+
+}
+
+.botão-acessar:hover {
+  background-color: #936BB7;
+  color: white;
+}
+
+.separador{
+    height: 700px;
+    position: absolute;
+    left: 720px;
+    right: 720px;
+    top: 162px;
+    bottom: 161px;
+    border: 4px solid #FFFFFF;
+    border-radius: 30px;
+}
+
+</style>
+<body>
+    <img src="img/cadastre-se.png" class="cadastre-se" alt="Imagem de cadastre-se"></img>
+    <input class="forms" type="text" id="name" placeholder="Nome Completo"></input>
+    <input class="forms" type="text" id="name" placeholder="E-mail">
+    <input class="forms" type="text" id="name" placeholder="Usename (Até 12 caracteres)">
+    <input class="forms" type="password" id="name" placeholder="Senha">
+    <input class="forms" type="text" id="name" placeholder="Data de Nascimento">
+    <select class="forms" id=cbPais>
+        <option class="forms">País</option>
+        <option>Usa</option>
+        <option>Canada</option>
+        <option>Mexico</option>
+    </select>
+    <select class="forms" id=cbEstado>
+        <option class="forms">Estado</option>
+        <option>SP</option>
+        <option>RJ</option>
+        <option>ES</option>
+    </select>
+    <div class=separador></div>
+    <a href="https://www.freecodecamp.org/"><button class="botão-cadastrar">Cadastrar</button></a>
+    <img src="img/entrar.png" class="entrar" alt="Imagem de entrar"></img>
+    <input class="forms-entrar1" type="text" id="name" placeholder="E-mail">
+    <input class="forms-entrar2" type="password" id="name" placeholder="Senha">
+    <button class="botão-acessar">Acessar</button>
+<img src="img/dinossauro.png" class="dinossauro" alt="Ilustração de dinossauro"></img>
+<p class="marca-dagua">designed by: @theworldofbibi in Github<p>
+</body>
+</html>
